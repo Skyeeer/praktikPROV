@@ -10,12 +10,10 @@ const car = {
 
 function addIsFast(car) {
   // Din kod här
+  let isFast = false;
   const cars = { ...name, speed, isFast };
   if (speed > 100) {
     isFast = true;
-  }
-  else {
-    isFast = false;
   }
 };
 
