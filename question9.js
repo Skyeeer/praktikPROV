@@ -17,7 +17,12 @@
 
 // Klassen Student
 
-
+class Student {
+    constructor(fullname, courses) {
+        this.fullname;
+        this.courses;
+    }
+}
 
 
 // Klassen Course
